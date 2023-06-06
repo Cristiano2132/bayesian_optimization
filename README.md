@@ -1,6 +1,6 @@
 <h1 align="center">Bayesian Optimization</h1>
 
-### 🏠 [Homepage](sdffsdfsdfsdf)
+### 🏠 [Homepage]()
 
 ## Prerequisites
 * Python 3.10
