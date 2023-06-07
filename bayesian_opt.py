@@ -57,7 +57,7 @@ class Optimizer:
                 return self.__model_classifier_evaluate(mdl=self.__model, X=X, y=y)
             return objective
 
-    def find_optimal_params(self, X, y) -> dict:
+    def find_optimal_params(self, X, y) -> None:
         print(f"Wait: Finding the best parameters .....")
         checkpoint_dir = 'checkpoint'
         if not os.path.exists(checkpoint_dir):
