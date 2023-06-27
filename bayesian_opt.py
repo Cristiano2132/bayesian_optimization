@@ -41,7 +41,7 @@ class Optimizer:
         ypred = mdl.predict(Xtest)
         right_evaluations = np.sum(
             np.array(list(ypred)) == np.array(list(ytest)))
-        return right_evaluations
+        return -right_evaluations
 
     def __get_objective_function(self, X, y, k_folds:int=3) -> any:
         if self.__model_type == 'regressor':
